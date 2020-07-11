@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="libraries/bootstrap-4.4.1/css/bootstrap.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- <div class="bio">
+            <h1>Assignment # 8 | Class # 15</h1>
+            <p class="font-weight-bold">Date: 05-July-2020 Sunday <span class="font-weight-bolder">Faizan Khan | WM3333 | faizankhn.fk97@gmail.com | 03368253427</span></p>
+        </div> -->
+
+        <div id="stopWatch" class="stopWatch">
+            <div class="head mb-5">
+                <h1>STOP WATCH</h1>
+            </div>
+
+            <div class="watch">
+                <h1 id="min">0</h1>
+                <h1 id="sec">0</h1>
+                <h1 id="msec">0</h1>
+            </div>
+
+            <div class="buttons mt-5">
+                <button type="button" id="btnStart" onclick="start();" class="btn btn-primary">Start</button>
+                <button type="button" onclick="pause();" class="btn btn-warning">Pause</button>
+                <button type="button" onclick="reset();" class="btn btn-danger">Reset</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- <script src="libraries/bootstrap-4.4.1/js/bootstrap.js"></script> -->
+<script src="js/app.js"></script>
+
+</html>
